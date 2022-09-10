@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+:root{
+    --white:#FFFFFF;
+    --gray:#F6F6F6;
+    --yellow:#FFB800;
+    --black:#020202;
+    --font-family: font-family: 'Roboto', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration:none ;
+    font-family: var(--font-family);
+    color: var(--black);
+    background-color: var(--white);
+    font-weight: 400;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 1.5rem 8.5rem;
+}
+.logo{
+    color: var(--yellow);
+    font-size: 2.4rem;
+}
+#menu-icon{
+    font-size: 2rem;
+    color: var(--yellow);
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1.1rem;
+    padding: 0.625rem 1.25rem;;
+}
+.navbar a:hover{
+    color: var(--yellow);
+    transition: 0.4s;
+}
+section{
+    padding: 4.5rem 5.5rem;
+}
+.home{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.home-img img{
+    max-width: 100%;
+    width:600px;
+    height: auto;
+
+}
+.home-text{
+   text-align: left;
+   max-width: 25%;
+}
+.home-text p{
+    font-size:1rem;
+    font-weight: 400;
+   
+
+}
+.home-text .dev{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.home-text h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+span{
+    color: var(--yellow);    
+}
+.btn{
+    width: 50%;
+    display: inline-block;
+    background-color: var(--yellow);
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--white);
+    margin-top: 1.25rem;
+    border-radius: 0.625rem;
+}
+.btn:hover{
+    transition: .4s;
+}
+
+.aboutme{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+    align-items: center;
+   
+}
+.aboutme-img{
+    max-width: 100%;
+    width:500px;
+    height: auto;
+
+}
+.aboutme-text{
+    max-width: 50%;
+}
+.aboutme-text p{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.button{
+    display: flex;
+    gap: 1rem;
+    width: 70%;
+    margin-top: 1.25rem;
+}
+ .cv{
+    background-color: var(--white);
+    border:0.1rem solid var(--yellow);
+    color: var(--yellow);
+}
+.cv:hover{
+    background-color: var(--yellow);
+    color: var(--white);
+    transition: .4s;
+}
+.port:hover{
+    background-color: var(--white);
+    color: var(--yellow);
+    border:0.1rem solid var(--yellow);
+    transition: .4s;
+}
+
