@@ -15,8 +15,9 @@
     text-decoration:none ;
     font-family: var(--font-family);
     color: var(--black);
-    background-color: var(--white);
     font-weight: 400;
+    line-height: 1.5rem;
+
 }
 header{
     position:fixed;
@@ -27,6 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;   
     padding: 1.5rem 8.5rem;
+    background-color: var(--white);
 }
 .logo{
     color: var(--yellow);
@@ -49,45 +51,49 @@ header{
     color: var(--yellow);
     transition: 0.4s;
 }
+.contact-btn{
+    background-color: var(--yellow);
+    margin-left: 1.25rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.contact-btn:hover{
+    color: var(--black);
+    border:0.1rem solid var(--yellow);
+    background-color: var(--white);
+}
 section{
     padding: 4.5rem 5.5rem;
 }
 .home{
     width: 100%;
-    min-height: 75vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-   
-
-}
-.home-img img{
-    max-width: 100%;
-    width:600px;
-    height: auto;
-
+    min-height: 90vh;
 }
 .home-text{
-   text-align: left;
-   max-width: 25%;
+   text-align: center;
+   margin-top:10rem;
+   
 }
 .home-text p{
     font-size:1rem;
     font-weight: 400;
-   
-
-}
-.home-text .dev{
-    font-size: 1.2rem;
-    font-weight: 400;
 }
 .home-text h1{
+    margin-top: 2rem;
     font-size: 4.5rem;
     font-weight: 900;
 }
 span{
-    color: var(--yellow);    
+    color: var(--yellow); 
+    font-size: 2rem;   
+}
+.button{
+    display: flex;
+    gap: 1rem;
+    width: 40%;
+    margin-top: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn{
     width: 50%;
@@ -103,34 +109,6 @@ span{
 .btn:hover{
     transition: .4s;
 }
-
-.aboutme{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 75vh;
-    align-items: center;
-   
-}
-.aboutme-img{
-    max-width: 100%;
-    width:500px;
-    height: auto;
-
-}
-.aboutme-text{
-    max-width: 50%;
-}
-.aboutme-text p{
-    font-weight: 400;
-    font-size: 1.25rem;
-}
-.button{
-    display: flex;
-    gap: 1rem;
-    width: 70%;
-    margin-top: 1.25rem;
-}
  .cv{
     background-color: var(--white);
     border:0.1rem solid var(--yellow);
@@ -139,12 +117,102 @@ span{
 .cv:hover{
     background-color: var(--yellow);
     color: var(--white);
-    transition: .4s;
 }
 .port:hover{
     background-color: var(--white);
     color: var(--yellow);
     border:0.1rem solid var(--yellow);
-    transition: .4s;
+}
+.aboutme{
+    width: 100%;
+    
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--yellow);
+}
+.aboutme-img{
+    max-width: 100%;
+    width:700px;
+    height: auto;
+    padding-left: 10rem;
+}
+.aboutme-text{
+    max-width: 510px;
+    margin-right: 2rem;
+}
+.aboutme-text p{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+#read-icon{
+    margin-top: 1.25rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.services{
+    min-height: 100vh;
+}
+.service-heading{
+    text-align: center;
+    font-weight: 900;
+    font-size:2.5rem;
+    margin-bottom: 2rem;
+}
+#icon-img{
+    font-size: 2rem;
+    color: var(--gray);
+    cursor: pointer;
+}
+hr{                                                                 
+    width: 50px;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: var(--yellow);
+    
+}
+.services-container{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+.servies-box{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: var(--yellow);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+
+}
+.service-text{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+
+}
+.service-para{
+    text-align: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
