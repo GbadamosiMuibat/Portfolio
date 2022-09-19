@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-        <header>
+     <!--header--> 
+        <header class="sticky">
             <div class="logo">
                 M.
             </div>
-            <i class='bx bx-menu' id="menu-icon"></i>
+            <div>
+                 <i class='bx bx-menu' id="menu-icon"></i>
+            </div>
             <div class="navbar">
               <li><a href="#home">Home</a></li>
               <li><a href="#aboutme">About Me</a></li>
@@ -22,31 +25,41 @@
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#blogs">Blogs</a></li>
-              <li><a href="#contact" class="contact-btn">Let's talk</a></li>
+              <li><a href="#contact">Let's talk</a></li>
+            </div>
+                 <a href="#" class="top-btn">Download CV</a>
             </div>
         </header>
+      <!--home-section--> 
         <section class="home" id="home">
             <div class="home-text">
-                <p>HELLO, <span> Muibat is here</span></p>
-                <h1>I'm Frontend Engineer</h1>
-                <div class="button">
-                    <a href="#" class="btn port">Portfolio</a>
-                    <a href="#" class="btn cv">Download CV</a>
+                <h3>HELLO,I AM</h3>
+                <h1>Muibat Gbadamosi</h1>
+                <h5>A Frontend Developer</h5>
+                <p>A resourceful, committed, perceptive,and diligent young lady with <br> excellent analytical and creative abilities.</p>
+                <div class="media-icon">
+                    <a href=""><i class='bx bxl-github'></i></a>
+                    <a href=""><i class='bx bxl-linkedin'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
                 </div>
+                <a href="#" class="btn"> My Portfolio</a>
             </div>
            
         </section>
+         <!--About-section-->
         <section class="aboutme" id="aboutme">
-            <div class="aboutme-img">
-               <img src="images\lettering-about-me.png" alt="aboutme">
+            <div class="aboutme-heading">
+                <h1>About Me</h1>
+                <hr>
             </div>
             <div class="aboutme-text">
-              <p>I'm an electrical and electronic engineering student at the University of ilorin,as well as a frontend developer with a strong interest in design and coding.I love to bring design to life for users to enjoy.Im also an active volunteer who contributes to the growth of the society.I create beautiful interface website for users to use.Lorem ipsum dolor sit amet, consectetur adipiscing elit., Praesent ut lacus ornare, maximus purus non, pretium enim. Curabitur dapibus posuere mollis. Praesent sodales in risus in suscipit. Nam vel massa ornare, pulvinar velit in, tincidunt lectus. Praesent imperdiet elit nisl, quis congue ante sodales eu. Vivamus tincidunt sed odio ut pellentesque. </p>
-              <i class='bx bx-right-arrow-alt' id="read-icon"><a href="#">Read More</a></i>
+              <p>I am resourceful, committed, perceptive,and diligent young lady with excellent analytical and creative abilities.Working as a frontend developer, designing and developing experiences that make users' lives easier. I use figma,HTML,CSS, javascript, and react. Python, machine learning, and child welfare are all areas of interest for me. In my spare time, I enjoy reading books about Islam, personal development, wealth, love, and children. I also enjoy teaching on occasion, though not always. I'm interested in developing a device that detects disease at an early stage in order to reduce fatalities and raise awareness about how the body should function. I'm also a student of electrical and electronic engineering at the University of Ilorin, where I'm interested in automation and embedded systems. I also volunteer in a variety of activities involving children, mental health, and leadership/self development.</p>
+              
             </div> 
            
             </div>
-        </section> 
+        </section>
+         <!--Service-section--> 
         <section class="services" id="services">
             <div class="service-heading">
                 <h1>Services</h1>
@@ -54,16 +67,16 @@
             </div>
             
             <div class="services-container">
-                <div class="servies-box">
+                <div class="services-box">
                     <div class="services-img">
                         <i class='bx bx-code-alt' id="icon-img"></i>
                     </div>
                     <div>
                         <h3>Frontend Development</h3>
-                        <p class="service-para">I create beautiful interface website for users to use.Lorem ipsum dolor sit amet, consectetur adipiscing elit., Praesent ut lacus ornare, maximus purus non, pretium enim. Curabitur dapibus posuere mollis. Praesent sodales in risus in suscipit. Nam vel massa ornare, pulvinar velit in, tincidunt lectus. Praesent imperdiet elit nisl, quis congue ante sodales eu. Vivamus tincidunt sed odio ut pellentesque. </p>
+                        <p >I create beautiful interface website for users to use.Lorem ipsum dolor sit amet, consectetur adipiscing elit., Praesent ut lacus ornare, maximus purus non, pretium enim. Curabitur dapibus posuere mollis. Praesent sodales in risus in suscipit. Nam vel massa ornare, pulvinar velit in, tincidunt lectus. Praesent imperdiet elit nisl, quis congue ante sodales eu. Vivamus tincidunt sed odio ut pellentesque. </p>
                     </div>
                 </div>
-                <div class="servies-box">
+                <div class="services-box">
                     <div class="services-img">
                         <i class='bx bx-hard-hat' id="icon-img"></i>
                     </div>
@@ -72,7 +85,7 @@
                         <p class="service-para">I create beautiful interface website for users to use.Lorem ipsum dolor sit amet, consectetur adipiscing elit., Praesent ut lacus ornare, maximus purus non, pretium enim. Curabitur dapibus posuere mollis. Praesent sodales in risus in suscipit. Nam vel massa ornare, pulvinar velit in, tincidunt lectus. Praesent imperdiet elit nisl, quis congue ante sodales eu. Vivamus tincidunt sed odio ut pellentesque. </p>
                     </div>
                 </div>
-                <div class="servies-box">
+                <div class="services-box">
                     <div class="services-img" >
                         <i class='bx bx-hard-hat' id="icon-img"></i>
                     </div>
@@ -82,9 +95,13 @@
                     </div>
                 </div>
             </div>
-         
-
-        </section>
-         <section></section>
+         </section>
+          <!--portfolio-section-->
+         <section class="portfolio" id="portfolio">
+            <div class="portfolio-heading">
+                <h1>Portfolio</h1>
+            <hr>
+            </div>
+         </section>
 </body>
 </html>
