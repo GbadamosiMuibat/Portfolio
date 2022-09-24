@@ -111,19 +111,7 @@ section{
     align-items: center;
 
 }
-.home-text{
-    color: var(--white);
-    animation: forward 1s ease 0s 1 normal forwards;
-}
-@keyframes forward {
-	0% {
-		transform: translateX(0);
-	}
 
-	100% {
-		transform: translateX(100px);
-	}
-}
 
 .home-text h3{
     color: var(--yellow);
@@ -426,6 +414,7 @@ hr{
         padding-top: 55px;
     }
   }
+ 
   @media (max-width: 753px){
     .form-text{
         width: 300px;
