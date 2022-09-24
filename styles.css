@@ -415,8 +415,14 @@ hr{
     }
   }
  
+ 
   @media (max-width: 753px){
     .form-text{
         width: 300px;
     }
   }
+  @media (max-width: 753px){
+    .form-text{
+        width:200px ;
+    }
+}
