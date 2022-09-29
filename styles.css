@@ -41,6 +41,10 @@ header.sticky{
     background-color:var(--gray);
     
 }
+header.sticky .navbar a{
+    color: var(--black);
+}
+
 .logo{
     color: var(--yellow);
     font-size: 3rem;
@@ -59,9 +63,7 @@ header.sticky{
     font-size: 1.1rem;
     padding:10px 27px;
 }
- .navbar a{
-    color: var(--black);
-}
+
 .navbar a::after{
     content: '';
     position: absolute;
@@ -411,8 +413,19 @@ hr{
     }
     .home-text{
         padding-top: 55px;
+        font-size: 1.25rem;
         
     }
+    .aboutme{
+        font-size: 1.25rem;
+    }
+    .portfolio{
+        font-size: 1.25rem;
+    }
+    .services{
+        font-size: 1.25rem;
+    }
+
   }
  
  
