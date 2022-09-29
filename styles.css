@@ -362,8 +362,7 @@ hr{
     color: var(--yellow);
     cursor: pointer;
   }
-  
-  @media (max-width: 1078px){
+   @media (max-width: 1078px){
     header{
         padding: 10px 2%;
     }
@@ -412,6 +411,7 @@ hr{
     }
     .home-text{
         padding-top: 55px;
+        
     }
   }
  
