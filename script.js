@@ -15,3 +15,11 @@ menuBtn.onclick = () =>{
     menuBtn.classList.remove('bx-x');
     navBar.classList.remove('active');
  };
+
+ var loader = document .querySelector(".preloader")
+
+     loader.classList.add("loader-hidden")
+ window.addEventListener("transitioned" , function(){
+    document.body.removeChild(loader)
+ })
+
